@@ -1,8 +1,6 @@
 /* Estilos globales para toda la aplicación */
-body, html {
+html {
     width: 100%;
     height: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: #E9EBF3; /* Color de fondo del navegador */
+    background-color: #E9EBF3;
 }

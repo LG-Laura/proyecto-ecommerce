@@ -1,0 +1,56 @@
+body {
+    background-color: #E9EBF3;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Ajusta el padding según sea necesario */
+}
+
+.navbar .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar .logo img {
+    height: 40px; /* Ajusta el tamaño del logo según sea necesario */
+    margin-right: 20px; /* Espacio entre el logo y los elementos de la lista */
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 20px; /* Espacio entre los elementos de la lista */
+    margin: 0 20px; /* Márgenes izquierdo y derecho iguales */
+}
+
+.nav-item .nav-link {
+    color: #000;
+    font-size: 30;
+    padding: 10px 15px; /* Ajusta el padding según sea necesario */
+    text-decoration: none;
+}
+
+.nav-item .nav-link:hover {
+    color: #9F2828;
+}
+
+.nav-item .nav-link.active {
+    font-weight: bold;
+}
+
+.navbar .shopping-icon a {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .shopping-icon img {
+    height: 20px; /* Ajusta el tamaño del icono de carrito */
+    margin-left: 20px; /* Espacio entre el icono del carrito y los elementos de la lista */
+}

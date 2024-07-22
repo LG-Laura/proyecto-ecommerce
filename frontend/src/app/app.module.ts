@@ -7,6 +7,8 @@ import { LoginComponent } from './components/login/login.component';
 import { SignInComponent } from './components/sign-in/sign-in.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { SpinnerComponent } from './shared/spinner/spinner.component';
+import { CarritoComponent } from './components/carrito/carrito.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { SpinnerComponent } from './shared/spinner/spinner.component';
     LoginComponent,
     SignInComponent,
     DashboardComponent,
-    SpinnerComponent
+    SpinnerComponent,
+    CarritoComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

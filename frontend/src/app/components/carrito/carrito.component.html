@@ -1,0 +1,134 @@
+<app-navbar></app-navbar>
+<div class="container">
+    <header>
+        <input type="text" class="search-bar" placeholder="Buscar productos...">
+    </header>
+    <aside class="filters">
+        <h2>Filtros</h2>
+        <hr>
+        <div class="filter-section">
+            <h3>Aplicar Filtros</h3>
+            <ul>
+                <li><input type="checkbox" id="filtro-todos"><label for="filtro-todos"> Todos</label></li>
+                <li><input type="checkbox" id="filtro-red"><label for="filtro-red"> Red</label></li>
+            </ul>
+        </div>
+        <hr>
+        <div class="filter-section">
+            <h3>Categoría</h3>
+            <ul>
+                <li><input type="checkbox" id="categoria-todos"><label for="categoria-todos"> Todos</label></li>
+                <li><input type="checkbox" id="categoria-electrica"><label for="categoria-electrica"> Guitarra eléctrica</label></li>
+                <li><input type="checkbox" id="categoria-electro-acustica"><label for="categoria-electro_acustica"> Guitarra eléctro acústica</label></li>
+            </ul>
+        </div>
+        <hr>
+        <div class="filter-section">
+            <h3>Estados</h3>
+            <ul>
+                <li><input type="checkbox" id="estado-stock"><label for="estado-stock"> Stock</label></li>
+                <li><input type="checkbox" id="estado-agotado"><label for="estado-agotado"> Agotado</label></li>
+            </ul>
+        </div>
+        <hr>
+    </aside>
+    <main class="product-list">
+        <div class="product-item">
+            <div class="product-image">
+                <img src="../../../assets/img/imgSonataEstratocasterSeries.png" alt="Guitarra eléctrica">
+            </div>
+            <div class="product-info">
+                <h4>Guitarra eléctrica</h4>
+                <p>SONATA ESTRATOCASTER SERIES</p>
+                <p>$360 <span class="stock-status">Stock</span></p>
+                <button class="add-to-cart">Agregar Carrito</button>
+            </div>
+        </div>
+        <div class="product-item">
+            <div class="product-image">
+                <img src="../../../assets/img/imgLesPaulSonataSeries-Negra.png" alt="Guitarra eléctrica">
+            </div>
+            <div class="product-info">
+                <h3>Guitarra eléctrica</h3>
+                <p>LES PAUL PROFESIONAL SONATA SERIES</p>
+                <p>$400 <span class="stock-status">Stock</span></p>
+                <button class="add-to-cart">Agregar Carrito</button>
+            </div>
+        </div>
+        <div class="product-item">
+            <div class="product-image">
+                <img src="../../../assets/img/imgElectroacusticaSonataSeries.png" alt="Guitarra eléctro acústica">
+            </div>
+            <div class="product-info">
+                <h3>Guitarra eléctro acústica</h3>
+                <p>ELECTROACÚSTICA SONATA SERIES</p>
+                <p>$350 <span class="stock-status out-of-stock">Agotado!</span></p>
+                <button class="add-to-cart" disabled>Agregar Carrito</button>
+            </div>
+        </div>
+        <div class="product-item">
+            <div class="product-image">
+                <img src="../../../assets/img/imgLesPaulSonataSeries-Naranja.png" alt="Guitarra eléctrica">
+            </div>
+            <div class="product-info">
+                <h3>Guitarra eléctrica</h3>
+                <p>SONATA ESTRATOCASTER SERIES</p>
+                <p>$360 <span class="stock-status">Stock</span></p>
+                <button class="add-to-cart">Agregar Carrito</button>
+            </div>
+        </div>
+        <div class="product-item">
+            <div class="product-image">
+                <img src="../../../assets/img/imgSonataEstratocasterSeries.png" alt="Guitarra eléctrica">
+            </div>
+            <div class="product-info">
+                <h3>Guitarra eléctrica</h3>
+                <p>LES PAUL PROFESIONAL SONATA SERIES</p>
+                <p>$400 <span class="stock-status">Stock</span></p>
+                <button class="add-to-cart">Agregar Carrito</button>
+            </div>
+        </div>
+        <div class="product-item">
+            <div class="product-image">
+                <img src="../../../assets/img/imgElectroacusticaSonataSeries.png" alt="Guitarra eléctro acústica">
+            </div>
+            <div class="product-info">
+                <h3>Guitarra eléctro acústica</h3>
+                <p>ELECTROACÚSTICA SONATA SERIES</p>
+                <p>$350 <span class="stock-status out-of-stock">Agotado!</span></p>
+                <button class="add-to-cart" disabled>Agregar Carrito</button>
+            </div>
+        </div>
+        <div class="product-item">
+            <div class="product-image">
+                <img src="../../../assets/img/imgLesPaulSonataSeries-Naranja.png" alt="Guitarra eléctrica">
+            </div>
+            <div class="product-info">
+                <h3>Guitarra eléctrica</h3>
+                <p>LES PAUL PROFESIONAL SONATA SERIES</p>
+                <p>$400 <span class="stock-status">Stock</span></p>
+                <button class="add-to-cart">Agregar Carrito</button>
+            </div>
+        </div>
+        <div class="product-item">
+            <div class="product-image">
+                <img src="../../../assets/img/imgLesPaulSonataSeries-Negra.png" alt="Guitarra eléctrica">
+            </div>
+            <div class="product-info">
+                <h3>Guitarra eléctrica</h3>
+                <p>LES PAUL PROFESIONAL SONATA SERIES</p>
+                <p>$400 <span class="stock-status">Stock</span></p>
+                <button class="add-to-cart">Agregar Carrito</button>
+            </div>
+        </div>
+        <!-- Repite los contenedores de productos según sea necesario -->
+        <footer>
+            <div class="pagination">
+                <span>Página 1 de 5</span>
+                <button class="pagination-button">Anterior</button>
+                <button class="pagination-button">Siguiente</button>
+            </div>
+        </footer>
+    </main>
+</div>
+
